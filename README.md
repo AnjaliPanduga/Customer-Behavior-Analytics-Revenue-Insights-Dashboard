@@ -38,7 +38,7 @@ I followed a three-stage pipeline to ensure the data was clean, the logic was so
 ---
 
 ## 📁 Project Structure
-```bash
+```
 customer-behavior-analytics-dashboard/
 │
 ├── data/           # Raw CSV dataset
