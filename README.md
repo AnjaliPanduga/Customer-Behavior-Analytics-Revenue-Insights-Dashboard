@@ -70,7 +70,7 @@ More queries available in the project 👉
   - Product performance
   - Discount impact
 
-This makes it easy for even non-technical users to understand the data.
+This makes it easy for even non-technical users to understand the data. 
 
 ---
 
