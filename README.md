@@ -39,14 +39,27 @@ I followed a three-stage pipeline to ensure the data was clean, the logic was so
 
 ## 📁 Project Structure
 ```
-customer-behavior-analytics-dashboard/
+
+Customer-Behavior-Analytics-Revenue-Insights-Dashboard/
 │
-├── data/           # Raw CSV dataset
-├── sql/            # Production-ready SQL queries
-├── notebook/       # Python EDA & Data Preprocessing
-├── dashboard/      # Power BI (.pbix) interactive file
-├── images/         # Visual assets for documentation
+├── data/
+│   └── customer_shopping_behavior.csv
+│
+├── sql/
+│   └── customer_behavior_sql_queries.sql
+│
+├── notebook/
+│   └── Customer_Shopping_Behavior_Analysis.ipynb
+│
+├── dashboard/
+│   └── customer_behavior_dashboard.pbix
+│
+├── images/
+│   └── dashboard_preview.png
+├── requirements.txt          
+│
 └── README.md
+
 ```
 ---
 
