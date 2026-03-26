@@ -1,110 +1,134 @@
-# 🛍️ Customer Behavior Analytics & Revenue Insights Dashboard
+# 🛍️ Customer Behavior Analytics: Turning Raw Data into Business Strategy
 
-## 📌 Project Overview
+![Dashboard Preview](images/dashboard_preview.png)
 
-This project focuses on understanding how customers behave while shopping and how their actions impact business revenue. Instead of just looking at raw data, the goal was to answer meaningful business questions like:
+## 🌟 The "Why" Behind This Project
+Raw data is just noise until it answers a specific question. Most businesses are "data-rich" but "insight-poor"—they have rows of transactions but don't know who their most valuable customers are or if their discount strategies actually work.
 
-Who spends more — male or female customers?
-Do discounts actually increase revenue?
-Are loyal customers more valuable than new ones?
-Which products are performing the best?
-
-By combining SQL, Python, and Power BI, I transformed raw customer data into actionable insights that can help businesses make better decisions.
+I built this project to bridge that gap. By analyzing shopping patterns, I’ve transformed a standard dataset into a **strategic roadmap** that helps a business decide where to spend their marketing budget and how to improve customer retention.
 
 ---
 
-## ❗ Problem Statement
-
-Businesses collect a huge amount of customer data, but most of it remains unused or underutilized.
-
-The main problem I wanted to solve was:
-
-"How can we use customer purchase data to understand behavior patterns and improve business decisions?"
-
-Without proper analysis, companies miss opportunities like:
-
-- Identifying high-value customers
-- Understanding the impact of discounts
-- Improving product strategies
-- Increasing customer retention
+## 🎯 The Problem Statement
+Many businesses collect data but struggle to extract meaning from it. I focused on answering the high-stakes questions that drive growth:
+* **The Revenue Gap:** Which demographic segments are our true heavy hitters?
+* **The Discount Paradox:** Do discounts actually drive higher spending, or do they just hurt our margins?
+* **Loyalty vs. Novelty:** Are repeat buyers more valuable than new acquisitions in the long run?
+* **Product Performance:** Which categories are "hero" products and which ones are underperforming?
 
 ---
 
-## 🛠️ Approach & Solution
+## 🛠️ Tech Stack & Workflow
+I followed a three-stage pipeline to ensure the data was clean, the logic was sound, and the results were visual.
 
-I broke the project into three main stages:
-
-1️⃣ Data Exploration & Cleaning
-- Loaded customer shopping dataset
-- Checked for inconsistencies and cleaned the data
-- Prepared it for analysis
-
-----
-
-2️⃣ SQL-Based Analysis
-
-I used SQL to answer real business questions such as:
-
-- Revenue comparison by gender
-- Identifying high-spending customers using discounts
-- Top-rated and most purchased products
-- Customer segmentation (New, Returning, Loyal)
-- Subscription vs non-subscription revenue behavior
-
-Example:
-
-SELECT gender, SUM(purchase_amount) as revenue
-FROM customer
-GROUP BY gender;
-
-More queries available in the project 👉
+* **SQL:** The engine. Used for complex window functions, customer segmentation (New vs. Loyal), and revenue aggregations.
+* **Python (Pandas):** The scout. Used for initial Data Exploration (EDA) and preprocessing.
+* **Power BI:** The storyteller. Used to build an interactive dashboard for non-technical stakeholders.
+* **Jupyter Notebook:** The lab. Where the data cleaning and preliminary analysis lived.
 
 ---
 
-3️⃣ Dashboard Creation (Power BI)
-- Built an interactive dashboard to visualize insights
-- Added filters for better exploration
-- Designed charts for:
-  - Revenue trends
-  - Customer segments
-  - Product performance
-  - Discount impact
-
-This makes it easy for even non-technical users to understand the data. 
+## 📊 Key Questions Answered
+* **Revenue Splits:** Comparing spending behavior across gender and age groups.
+* **Shipping Impact:** Does Express shipping lead to higher order values?
+* **Subscription Value:** Do subscribed customers exhibit higher brand loyalty?
+* **Discount Efficiency:** Identifying which products have the highest discount usage vs. their actual rating.
+* **Segmentation:** Grouping customers into **New, Returning, and Loyal** tiers based on behavior.
 
 ---
 
-## 📊 Key Insights
-
-Some interesting findings from the analysis:
-
-- Certain customer segments contribute more to overall revenue
-- Discounts do not always guarantee higher spending
-- Loyal customers play a major role in business growth
-- Subscription-based users show different spending patterns
-
+## 📁 Project Structure
+```bash
+customer-behavior-analytics-dashboard/
+│
+├── data/           # Raw CSV dataset
+├── sql/            # Production-ready SQL queries
+├── notebook/       # Python EDA & Data Preprocessing
+├── dashboard/      # Power BI (.pbix) interactive file
+├── images/         # Visual assets for documentation
+└── README.md
+```
 ---
 
-## 🧰 Tech Stack
-- SQL → Data analysis and querying
-- Python → Data handling and preprocessing
-- Power BI → Dashboard and visualization
+## How to Run Locally
+1. Clone the repository
+```
+git clone https://github.com/yourusername/customer-behavior-analytics-dashboard.git
+cd customer-behavior-analytics-dashboard
+```
+2. Open and explore the SQL queries
 
+Open the SQL file below in your SQL editor and run the queries:
+```
+sql/customer_behavior_sql_queries.sql
+```
+Make sure your database table is created and the dataset is loaded before running the queries.
+
+3. Run the Jupyter notebook
+
+If you want to explore the analysis in Python, install the required packages first:
+```
+pip install pandas matplotlib notebook
+```
+Then start Jupyter Notebook:
+
+jupyter notebook
+
+Open the notebook:
+```
+notebook/Customer_Shopping_Behavior_Analysis.ipynb
+```
+4. Open the Power BI dashboard
+
+Open the Power BI file below in Power BI Desktop:
+```
+dashboard/customer_behavior_dashboard.pbix
+```
+If the data source path is broken, reconnect it to the CSV file inside the data/ folder.
+
+Main Insights
+
+This project helped reveal how different customer groups behave in different ways.
+
+Some of the main insights include:
+```
+spending patterns change across customer segments
+discounts do not always lead to higher spending
+repeat customers are important for long-term revenue
+product performance is not the same across all categories
+age and subscription status can influence buying behavior
+```
+What I Learned
+
+This project helped me improve both the technical and business side of data analysis.
+
+I learned how to:
+```
+turn business questions into SQL queries
+analyze customer behavior using structured data
+connect raw data with dashboard storytelling
+present insights in a way that is easy to understand
+think beyond numbers and focus on business value
+```
+Future Improvements
+```
+There is still room to take this project further.
+```
+Some ideas for future work:
+```
+customer churn prediction
+product recommendation system
+automated data pipeline
+deeper segmentation using machine learning
+monthly and seasonal trend analysis
+```
 ---
+Conclusion
 
-## 🎯 What I Learned
+This project shows how customer data can be transformed into meaningful business insights.
 
-This project helped me understand:
-
-- How to translate business problems into data questions
-- Writing efficient SQL queries for real-world scenarios
-- Building dashboards that tell a story, not just show numbers
-- The importance of customer segmentation in analytics
-
+The focus was not only on finding numbers, but on understanding what those numbers mean for a business. From revenue analysis to customer segmentation, this project gives a clear picture of shopping behavior and decision-making patterns.
 ---
+Contact
 
-
-
-
-
-
+If you found this project useful, feel free to connect and share feedback.
