@@ -123,12 +123,12 @@ deeper segmentation using machine learning
 monthly and seasonal trend analysis
 ```
 ---
-Conclusion
+## Conclusion
 
 This project shows how customer data can be transformed into meaningful business insights.
 
 The focus was not only on finding numbers, but on understanding what those numbers mean for a business. From revenue analysis to customer segmentation, this project gives a clear picture of shopping behavior and decision-making patterns.
 ---
-Contact
+## Contact
 
 If you found this project useful, feel free to connect and share feedback.
