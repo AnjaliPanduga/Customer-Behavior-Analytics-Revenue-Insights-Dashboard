@@ -145,3 +145,9 @@ The focus was not only on finding numbers, but on understanding what those numbe
 ## Contact
 
 If you found this project useful, feel free to connect and share feedback.
+
+📧 Email: pandugaanjali2003@gmail.com
+
+🔗 GitHub: https://github.com/AnjaliPanduga
+
+---
