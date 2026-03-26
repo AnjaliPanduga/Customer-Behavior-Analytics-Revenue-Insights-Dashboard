@@ -1,6 +1,6 @@
-🛍️ Customer Behavior Analytics & Revenue Insights Dashboard
+# 🛍️ Customer Behavior Analytics & Revenue Insights Dashboard
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on understanding how customers behave while shopping and how their actions impact business revenue. Instead of just looking at raw data, the goal was to answer meaningful business questions like:
 
@@ -13,7 +13,7 @@ By combining SQL, Python, and Power BI, I transformed raw customer data into act
 
 ---
 
-❗ Problem Statement
+## ❗ Problem Statement
 
 Businesses collect a huge amount of customer data, but most of it remains unused or underutilized.
 
@@ -30,7 +30,7 @@ Without proper analysis, companies miss opportunities like:
 
 ---
 
-🛠️ Approach & Solution
+## 🛠️ Approach & Solution
 
 I broke the project into three main stages:
 
@@ -74,7 +74,7 @@ This makes it easy for even non-technical users to understand the data.
 
 ---
 
-📊 Key Insights
+## 📊 Key Insights
 
 Some interesting findings from the analysis:
 
@@ -85,14 +85,14 @@ Some interesting findings from the analysis:
 
 ---
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 - SQL → Data analysis and querying
 - Python → Data handling and preprocessing
 - Power BI → Dashboard and visualization
 
 ---
 
-🎯 What I Learned
+## 🎯 What I Learned
 
 This project helped me understand:
 
